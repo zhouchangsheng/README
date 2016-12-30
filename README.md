@@ -84,7 +84,7 @@ ___
 使用一对各三个的反引号：
 ```
 欢迎到访
-我是前段码农
+我是web前段码农、全栈爱好者
 ```
 该语法也可以实现代码高亮，见[代码高亮](#代码高亮)
 ###文字高亮
@@ -150,9 +150,9 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 ###链接外部URL
 |#|语法|效果|
 |---|----|-----
-|1|`[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")`|[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")
+|1|`[我的博客](https://my.oschina.net/u/3115945/blog "悬停显示")`|[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")
 |2|`[我的知乎][zhihu] `|[我的知乎][zhihu] 
-|2|`[zhihu]:https://www.zhihu.com/people/jellywong "我的知乎，欢迎关注"`|   
+|2|`[zhihu]:https://www.zhihu.com/people/jerry_zhou "我的知乎，欢迎关注"`|   
 
 语法2由两部分组成：
 - 第一部分使用两个中括号，[ ]里的标识符（本例中zhihu），可以是数字，字母等的组合，标识符上下对应就行了（**姑且称之为URL标识符**）
@@ -165,7 +165,6 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 |语法|效果|
 |----|-----
 |`[我的简介]|(/example/profile.md)`|[我的简介](/example/profile.md)
-|`[Book]|(./Book)`|[Book](/Book)
 
 ###图片链接
 给图片加链接的本质是混合图片显示语法和普通的链接语法。普通的链接中[ ]内部是链接要显示的文本，而图片链接[ ]里面则是要显示的图片。  
@@ -173,9 +172,8 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 |#|语法|效果|
 |---|----|:---:
-|1|`[![weibo-logo]](http://weibo.com/linpiaochen)`|[![weibo-logo]](http://weibo.com/linpiaochen)
-|2|`[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]`|[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]|
-|3|`[![csdn-logo]][csdn]`|[![csdn-logo]][csdn]
+|1|`[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]`|[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]|
+|2|`[![oschina-logo]][oschina]`|[![oschina-logo]][oschina]
 
 因为图片本身和链接本身都支持URL标识符的形式，所以图片链接也可以很简洁（见例3）。  
 注意，此时鼠标悬停时显示的文字是图片的title，而非链接本身的title了。
@@ -326,10 +324,8 @@ Github的Markdown语法支持添加emoji表情，输入不同的符号码（两�
 但是这个网页每次都打开**奇慢**。。所以我整理到了本repo中，大家可以直接在此查看[emoji](./emoji.md)。
 
 --------------------------------
-[csdn]:http://blog.csdn.net/guodongxiaren "我的博客"
-[zhihu]:https://www.zhihu.com/people/jellywong "我的知乎，欢迎关注"
-[weibo]:http://weibo.com/linpiaochen
+[oschina]:https://my.oschina.net/u/3115945/blog "我的博客"
+[zhihu]:https://www.zhihu.com/people/jerry_zhou "我的知乎，欢迎关注"
 [baidu-logo]:http://www.baidu.com/img/bdlogo.gif "百度logo"
-[weibo-logo]:/img/weibo.png "点击图片进入我的微博"
-[csdn-logo]:/img/csdn.png "我的CSDN博客"
+[oschina-logo]:/img/oschina.ico "我的oschina博客"
 [foryou]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
