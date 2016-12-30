@@ -192,9 +192,9 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 ##列表
 ###无序列表
-* 昵称：果冻虾仁
-- 别名：隔壁老王
-* 英文名：Jelly
+* 昵称：长生、花生、华生
+* 别名：长升
+* 英文名：jerry
 
 ###多级无序列表
 * 编程语言
