@@ -5,7 +5,7 @@ README
 ****
 ###					源自：果冻虾仁（Jelly.K.Wang@qq.com）
 ****
-###　　　　　　　　　　　　Author:长升
+###　　　　　　　　　　　　Author:[长升](/example/profile.md)
 ###　　　　　　　　　 E-mail:jerry_zhou688@163.com
 
 ===========================
