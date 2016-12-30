@@ -150,7 +150,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 ###链接外部URL
 |#|语法|效果|
 |---|----|-----
-|1|`[我的博客](https://my.oschina.net/u/3115945/blog "悬停显示")`|[我的博客](https://my.oschina.net/u/3115945/blog "悬停显示" target="_blank")
+|1|`[我的博客](https://my.oschina.net/u/3115945/blog "悬停显示")`|[我的博客](https://my.oschina.net/u/3115945/blog "悬停显示" )
 |2|`[我的知乎][zhihu] `|[我的知乎][zhihu] 
 |2|`[zhihu]:https://www.zhihu.com/people/jerry_zhou "我的知乎，欢迎关注"`|   
 
